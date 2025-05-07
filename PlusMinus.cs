@@ -1,4 +1,6 @@
- int total = arr.Count;
+public static void plusMinus(List<int> arr)
+    {
+        int total = arr.Count;
     int posCount = 0, negCount = 0, zeroCount = 0;
 
     foreach (int num in arr)
@@ -14,3 +16,5 @@
     Console.WriteLine("{0:F6}", (double)posCount / total);
     Console.WriteLine("{0:F6}", (double)negCount / total);
     Console.WriteLine("{0:F6}", (double)zeroCount / total);
+
+    }
